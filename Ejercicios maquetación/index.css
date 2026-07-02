@@ -1,0 +1,192 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+/* / Reset */
+
+ /* Block A */
+
+
+.a{
+    padding: 48px 0;
+    background-color: #fbfbfb;
+
+}
+.a__block{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.a__img{
+
+    flex: 1 1 310px;
+
+
+}
+.a__content{
+    flex: 1 1 310px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Solo con flex y grid */
+
+}
+
+<!--
+
+.b__img {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+
+}
+.imagenb__card {
+
+
+}
+
+.b__content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+-->
+
+/* Block A */
+
+/* Block B */
+
+.b {
+    
+    padding: 48px 0;
+
+
+
+}
+
+.b__block {
+    display: flex;
+    gap: 16px;
+    padding 16px;
+    max-width: 920px;
+
+    margin: 0 auto;
+
+
+
+}
+
+
+.b__card {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding 16px;
+
+}
+
+/* Block C */
+
+.c__img {
+
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+    max-width: 920px;
+
+
+}
+
+.c__block {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+
+    margin: 0 auto;
+
+
+
+}
+
+
+.c__content {
+
+    padding: 16px;
+    display: flex;
+    flex: column;
+
+
+}
+
+/* block C */
+
+.c {
+    padding: 48px 0;
+
+
+}
+
+.c__block {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 16px;
+
+    max-width: 920px;
+    margin: 0 auto;
+    align-items: start;
+
+}
+
+
+.c__content {
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+
+
+}
+
+.c__card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+
+}
+
+.btn {
+
+    background-color: black
+    color: white;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+/* / Block C */
