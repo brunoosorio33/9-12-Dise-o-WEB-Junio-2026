@@ -1,0 +1,86 @@
+/* Reset */
+* /* All */ {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cards {
+    padding: 48px 0;
+
+}
+
+.cards__block {
+
+
+    max-width: 1328px;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.cards__card {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+
+
+/* Section B */
+
+.b {
+    padding: 48px 0;
+
+
+}
+.b__block {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 16px;
+    align-items: start;
+
+    max-width: 920px;
+    margin: 0 auto;
+
+}
+.b__content {
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+    flex-direction: row;
+
+
+}
+.b__card {
+    display: flex,
+    gap: 16px;
+    padding: 16px;
+
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+

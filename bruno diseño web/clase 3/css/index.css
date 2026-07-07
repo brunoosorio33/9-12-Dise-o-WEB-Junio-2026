@@ -1,0 +1,66 @@
+
+/* Reset */
+* /* All */ {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+p {
+    background-color: black;
+    color: white;
+    padding: 25px;
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: lowercase;
+
+    line-height: 1.5;
+
+    letter-spacing: 5px;
+
+
+
+
+
+}
+
+
+section {
+    background-color: black;
+    padding 16px;
+
+    display: flex
+    flex-flow: row wrap;
+    gap: 16px;
+
+    justify-content: space-between;
+    align-items: :start;
+
+
+}
+
+.pepe {
+    flex-grow: 2;
+
+}
+
+
+div {
+    background-color: red;
+    max-height: 50px;
+    flex-grow: 1;
+    min-height: 50px;
+    flex-basis: 50px;
+    flez: 1 1 50px;
+
+    */flex row shink basis
+}

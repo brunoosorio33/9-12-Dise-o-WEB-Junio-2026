@@ -1,0 +1,393 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+/* / Reset */
+
+.section {
+    padding: 48px 0;
+    background-color:#f0f0f0;
+}
+.block {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+}
+
+ /* Block A */
+
+.a__block{
+    gap: 48px;
+    align-items: center;
+}
+.a__img{
+
+    flex: 1 1 310px;
+
+
+}
+.a__content{
+    flex: 1 1 310px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Solo con flex y grid */
+
+}
+
+<!--
+
+.b__img {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+
+}
+.imagenb__card {
+
+
+}
+
+.b__content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+-->
+
+/* Block A */
+
+/* Block B */
+
+
+
+
+}
+
+.b__block {
+    gap: 16px;
+
+
+
+}
+
+
+.b__card {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding 16px;
+
+}
+
+/* Block C */
+
+.c__img {
+
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+    max-width: 920px;
+
+
+}
+
+.c__block {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+
+    margin: 0 auto;
+
+
+
+}
+
+
+.c__content {
+
+    padding: 16px;
+    display: flex;
+    flex: column;
+
+
+}
+
+/* block C */
+
+
+.c__block {
+    flex-direction: column;
+    gap: 32px;
+    align-items: start;
+
+}
+
+
+.c__content {
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+
+
+}
+
+.c__card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 310px;
+
+}
+
+.btn {
+
+    background-color: black
+    color: white;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+.btn--light {
+    
+}
+
+/* / Block C */
+
+/* Block D */
+
+.d__block {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 16px;
+
+    max-width: 920px;
+    margin: 0 auto;
+
+}
+.d__head {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.d__content {
+    display:  flex;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+
+
+
+}
+.d__card {
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+    flex-direction: column;
+    flex: 1 1 310px;
+
+
+
+}
+
+.d__foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.d__foot h3 {
+    flex: 1 1 310px;
+
+
+
+}
+
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+
+
+
+
+}
+
+.e {
+    padding: 48 0px;
+    background-color:white;
+
+
+
+}
+.e__block {
+    flex-direction: column;
+    gap:48px;
+
+
+
+}
+.e__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+    padding: 16px;
+
+
+
+}
+.e__paragraph {
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+
+}
+
+.btn {
+    background: black;
+    color: white;
+    
+
+
+
+}
+
+.e__paragraph p {
+
+    flex: 1 1 310;
+}
+
+
+.f {
+    padding: 48px 0;
+    background-color: white;
+
+
+
+}
+.f__block {
+    flex-direction: column;
+    gap: 48px;
+
+
+}
+.f__images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+.f__images div {
+
+    flex: 1 1 320px;
+}
+
+
+}
+.f__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+
+
+
+}
+.f__paragraph {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    gap: 16px;
+    paddin: 16px 0;
+
+
+
+}
+
+.f__paragraph p, f.__paragraph a {
+
+    flex: 1 1 320px;
+}
+
+.f.__paragraph a {
+
+    text-align: center;
+}
+
+.g {
+    padding: 48px 0;
+    background-color: #fbfbfb;  
+}
+
+.g__block {
+    flex-direction: column;
+    gap: 16px;
+
+
+
+}
+.g__row {
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+
+
+}
+.g__card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 320px;
+    padding: 32px;
+    gap: 16px;
+    background-color: #f0f0f0;
+
+}
+.g__card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.g__foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
