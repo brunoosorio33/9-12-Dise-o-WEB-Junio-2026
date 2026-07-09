@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    background-color: black;
+    padding: 16px;
+    gap: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
+
+
+}
+
+div {
+    background-color: white;
+
+    &.pepe {
+        background-color: aqua;
+        grid-column: ;
+        grid-row: ;
+        grid-area: 1 / 2 / 3 / 4;
+    }
+
+    &.juan {
+        background-color: brown;
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+}
