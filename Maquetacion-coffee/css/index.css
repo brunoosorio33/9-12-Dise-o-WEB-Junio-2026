@@ -1,0 +1,104 @@
+:root {
+
+    /* Color */
+
+    --color-main: #3E2723;
+    --color-secundary: #5D4037;
+    --color-dark: #1F1F1F;
+    --color-light: #F3F3F3;
+    --color-error: #E26868;
+
+    /* Fonts */
+    --font-title-xxl: 600 clamp(48px, 5vw, 64px) "Poppins"
+    --font-title-xl: 500 clamp(24px, 5vw, 32px) "Poppins"
+    --font-title-lg: 400 clamp(19px, 5vw, 24px) "Inter"
+    --font-buttons-xl: 500 clamp(17px, 5vw, 19px) "Poppins"
+
+    --font-body: 400 .9375rem "Poppins"
+    --font-link 500 .9375rem "Poppins"
+
+    /* Spacing */
+
+    --spacing-xxl: 64px;
+    --spacing-xl: 48px;
+    --spacing-lg: 32px;
+    --spacing-md: 16px;
+    --spacing-sm: 10px;
+
+    /* Size */
+
+    --size-icon-md: 24px;
+
+    --size-max-width: 964px;
+    --size-max-width-xl: 1024px;
+
+    --size-min-width-sm: 210px;
+    --size-min-width: 320px;
+
+    --screan-mobile: 40rem;
+
+
+    /* Radius*/
+    --radius-sm: 5px;
+    --radius-full: 100px;
+}
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+}
+
+ul,li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, .title-xxl {
+    font: var(--font-title-xxl);
+
+}
+
+h2, .title-xl {
+    font: var(--font-title-xl);
+}
+
+h3, .title-lg {
+    font: var(--font-title-lg);
+}
+
+h4, .buttons-xl {
+    font: var(--font-buttons-xl);
+}
+
+.block {
+    max-width: var(--size-max-width);
+    margin: 0 auto;
+    width: 100%;
+}
