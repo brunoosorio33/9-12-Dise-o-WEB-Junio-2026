@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: beige;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+}
