@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+a { 
+    color: inherit;
+    text-decoration: none;
+}
+
+img { 
+    max-width: 100%;
+    object-fit: cover;
+}
+
+button { 
+    background: none;
+    border: none;
+
+    &:hover { 
+        cursor: pointer; 
+    }
+}
+
+/* ---Tokens--- */
+
+
+
+
+:root { 
+
+    /* Colores */
+     
+    --neutral-950: #0A0A0A;
+    --neutral-900: #171717;
+    --neutral-700: #404040;
+    --neutral-500: #737373;
+    --neutral-300: #D4D4D4;
+    --neutral-200: #E5E5E5;
+    --neutral-50: #FAFAFA;
+    --white: #FFFFFF;
+
+    /* Fonts */
+
+    --heading-display: 300 clamp(3rem, 9vw, 8rem) "Cormorant", serif;
+    --heading-lg: 300 clamp(2.5rem, 5vw, 5.5rem) "Cormorant", serif;
+    --heading-md: 300 clamp(2rem, 4vw, 1.5rem) "Cormorant", serif;
+    --heading-sm: 300 clamp(1.5rem, 2vw, 2rem) "Cormorant", serif;
+    --heading-xs: 400 1.75rem "Cormorant", serif;
+
+    --font-body: 400 1rem "Inter", sans-serif;
+    --font-caption: 400 0.8rem "Inter", sans-serif;
+    --font-eyebrow: 400 0.7rem "Inter", sans-serif;
+
+
+    /* Spaces */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 3rem;
+    --space-xl: 6rem;
+    --space-2xl: 10rem;
+    --space-3xl: 12rem;
+
+     /* Spaces */
+     --max-width: 77.8125rem;
+
+     }
+
+/* ---Components--- */
+
+.heading--xl {
+    font: var(--heading-display);
+    line-height: 1.132;
+    letter-spacing: -1.21px;
+}
+.heading--lg {
+    font: var(--heading-lg);
+    line-height: 1.08;
+    letter-spacing: -0.8px;
+}
+.heading--md {
+    font: var(--heading-md);
+    line-height: 1.06;
+    letter-spacing: -0.54px;
+}
+.heading--sm {
+    font: var(--heading-sm);
+    line-height: 1.03;
+    letter-spacing: -0.28px;
+}
+.heading--xs {
+    font: var(--heading-xs);
+    line-height: 1.03;
+    letter-spacing: -0.3px;
+}
+.body {
+    font: var(--font-body);
+    line-height: 1.017;
+    letter-spacing: -0.16x;
+}
+.caption {
+    font: var(--font-caption);
+    line-height: 1.014;
+    letter-spacing: -0.13x; 
+}
+.eyebrow {
+    font: var(--font-eyebrow);
+    line-height: 1.012;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: var(--neutral-500)
+}
+.link {
+    font:var(--font-caption);
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+
+    padding-bottom: var(--space-xs);
+    border-bottom: solid 1px var(--neutral-900);
+    color: var(--neutral-900);
+}
+.filter {
+    font:var(--font-caption)
+}
+.submit {
+    font:var(--font-caption)
+}
+
+.section {
+    padding: var(--space-3xl) var(--space-md);
+}
+
+.block {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+/* Maquetacion */
+
+.header {
+
+}
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-md);
+    
+}
+.header__logo {
+    
+}
+.header__nav {
+
+    & ul {
+        display: flex;
+        list-style: none;
+        gap: var(--space-md);
+    }
+    
+}
