@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>STUDIO — Collections</title>
   <link rel="stylesheet" href="css/index.css">
+  
 </head>
 
 <body>
 
 <header class="header">
+
   <a href="index.html" class="logo">STUDIO</a>
 
   <nav class="nav">
@@ -20,233 +22,574 @@
   </nav>
 
   <div class="header-actions">
-    <button>SEARCH</button>
+    <button type="button">SEARCH</button>
+
     <a href="checkout.html">
       CART <span class="cart-count">0</span>
     </a>
   </div>
 
-  <button class="menu-toggle">MENU</button>
+  <button class="menu-toggle" type="button">
+    MENU
+  </button>
+
 </header>
 
 
 <main class="shop-page">
 
+
+  <!-- =====================================================
+       SHOP HEADING
+  ====================================================== -->
+
   <section class="shop-heading">
 
     <div>
-      <span class="eyebrow">STUDIO / COLLECTION 01</span>
-      <h1>COLLECTIONS</h1>
+
+      <span class="eyebrow">
+        STUDIO / COLLECTION 01
+      </span>
+
+      <h1>
+        COLLECTIONS
+      </h1>
+
       <p>
         Current essentials for modern living.
         Designed from concept to construction
         without compromise.
       </p>
+
     </div>
 
   </section>
 
 
+
+  <!-- =====================================================
+       SHOP CONTENT
+  ====================================================== -->
+
   <div class="shop-layout">
 
-    <!-- FILTERS -->
+
+    <!-- ===================================================
+         FILTERS
+    ==================================================== -->
 
     <aside class="filters">
 
-      <span class="filter-title">FILTER</span>
+      <span class="filter-title">
+        FILTER
+      </span>
 
-      <button data-filter="all">ALL ITEMS</button>
-      <button data-filter="outerwear">OUTERWEAR</button>
-      <button data-filter="tops">TOPS</button>
-      <button data-filter="accessories">ACCESSORIES</button>
+      <button
+        type="button"
+        data-filter="all">
+        ALL ITEMS
+      </button>
+
+      <button
+        type="button"
+        data-filter="outerwear">
+        OUTERWEAR
+      </button>
+
+      <button
+        type="button"
+        data-filter="tops">
+        TOPS
+      </button>
+
+      <button
+        type="button"
+        data-filter="accessories">
+        ACCESSORIES
+      </button>
+
 
       <div class="filter-section">
-        <span>COLOR</span>
+
+        <span>
+          COLOR
+        </span>
 
         <div class="colors">
-          <button class="color black"></button>
-          <button class="color white"></button>
-          <button class="color grey"></button>
-          <button class="color brown"></button>
+
+          <button
+            type="button"
+            class="color black"
+            aria-label="Black">
+          </button>
+
+          <button
+            type="button"
+            class="color white"
+            aria-label="White">
+          </button>
+
+          <button
+            type="button"
+            class="color grey"
+            aria-label="Grey">
+          </button>
+
+          <button
+            type="button"
+            class="color brown"
+            aria-label="Brown">
+          </button>
+
         </div>
+
       </div>
 
     </aside>
 
 
-    <!-- PRODUCTS -->
+
+    <!-- ===================================================
+         PRODUCTS
+    ==================================================== -->
 
     <section class="products-grid">
 
-      <article class="product-card" data-category="outerwear">
+
+      <!-- PRODUCT 01 -->
+
+      <article
+        class="product-card"
+        data-category="outerwear">
 
         <a href="product.html">
+
           <div class="product-image">
-            <span class="badge">NEW</span>
+
+            <span class="badge">
+              NEW
+            </span>
 
             <img
               src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=85"
-              alt="The Rigor jacket">
+              alt="The Rigor jacket"
+              loading="lazy">
+
           </div>
 
+
           <div class="product-info">
-            <h3>THE RIGOR 3000</h3>
-            <span>BLACK / WOOL</span>
-            <strong>€420.00</strong>
+
+            <h3>
+              THE RIGOR 3000
+            </h3>
+
+            <span>
+              BLACK / WOOL
+            </span>
+
+            <strong>
+              €420.00
+            </strong>
+
           </div>
+
         </a>
 
       </article>
 
 
-      <article class="product-card" data-category="tops">
+
+      <!-- PRODUCT 02 -->
+
+      <article
+        class="product-card"
+        data-category="tops">
 
         <a href="product.html">
+
           <div class="product-image">
 
             <img
               src="https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=700&q=85"
-              alt="Layered top">
+              alt="Layered top"
+              loading="lazy">
+
           </div>
 
+
           <div class="product-info">
-            <h3>STRUCTURE TOP</h3>
-            <span>GREY / COTTON</span>
-            <strong>€180.00</strong>
+
+            <h3>
+              STRUCTURE TOP
+            </h3>
+
+            <span>
+              GREY / COTTON
+            </span>
+
+            <strong>
+              €180.00
+            </strong>
+
           </div>
+
         </a>
 
       </article>
 
 
-      <article class="product-card" data-category="tops">
+
+      <!-- PRODUCT 03 -->
+
+      <article
+        class="product-card"
+        data-category="tops">
 
         <a href="product.html">
+
           <div class="product-image">
 
             <img
               src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=85"
-              alt="White shirt">
+              alt="White shirt"
+              loading="lazy">
+
           </div>
 
+
           <div class="product-info">
-            <h3>FORM SHIRT</h3>
-            <span>WHITE / COTTON</span>
-            <strong>€210.00</strong>
+
+            <h3>
+              FORM SHIRT
+            </h3>
+
+            <span>
+              WHITE / COTTON
+            </span>
+
+            <strong>
+              €210.00
+            </strong>
+
           </div>
+
         </a>
 
       </article>
 
 
-      <article class="product-card" data-category="accessories">
+
+      <!-- PRODUCT 04 -->
+
+      <article
+        class="product-card"
+        data-category="accessories">
 
         <a href="product.html">
+
           <div class="product-image">
 
             <img
               src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=85"
-              alt="Leather bag">
+              alt="Leather bag"
+              loading="lazy">
+
           </div>
 
+
           <div class="product-info">
-            <h3>UTILITY CASE</h3>
-            <span>BLACK / LEATHER</span>
-            <strong>€290.00</strong>
+
+            <h3>
+              UTILITY CASE
+            </h3>
+
+            <span>
+              BLACK / LEATHER
+            </span>
+
+            <strong>
+              €290.00
+            </strong>
+
           </div>
+
         </a>
 
       </article>
 
 
-      <article class="product-card" data-category="accessories">
+
+      <!-- PRODUCT 05 -->
+
+      <article
+        class="product-card"
+        data-category="accessories">
 
         <a href="product.html">
+
           <div class="product-image">
 
             <img
               src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=700&q=85"
-              alt="Scarf">
+              alt="Scarf"
+              loading="lazy">
+
           </div>
 
+
           <div class="product-info">
-            <h3>MODULAR SCARF</h3>
-            <span>BLACK / WOOL</span>
-            <strong>€140.00</strong>
+
+            <h3>
+              MODULAR SCARF
+            </h3>
+
+            <span>
+              BLACK / WOOL
+            </span>
+
+            <strong>
+              €140.00
+            </strong>
+
           </div>
+
         </a>
 
       </article>
 
 
-      <article class="product-card" data-category="accessories">
+
+      <!-- PRODUCT 06 — SUNGLASSES -->
+
+      <article
+        class="product-card"
+        data-category="accessories">
 
         <a href="product.html">
+
           <div class="product-image">
 
+            <!--
+              IMAGEN CORREGIDA.
+              Se ha sustituido la URL anterior
+              que estaba mostrando la imagen rota.
+            -->
+
             <img
-              src="https://images.unsplash.com/photo-1506629905607-d9e9e7f1f4b8?auto=format&fit=crop&w=700&q=85"
-              alt="Sunglasses">
+              src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=700&q=85"
+              alt="Sunglasses"
+              loading="lazy"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=85';">
+
           </div>
 
+
           <div class="product-info">
-            <h3>FRAME 01</h3>
-            <span>BLACK / ACETATE</span>
-            <strong>€160.00</strong>
+
+            <h3>
+              FRAME 01
+            </h3>
+
+            <span>
+              BLACK / ACETATE
+            </span>
+
+            <strong>
+              €160.00
+            </strong>
+
           </div>
+
         </a>
 
       </article>
+
 
     </section>
 
   </div>
 
 
-  <!-- BOTTOM EDITORIAL -->
+
+  <!-- =====================================================
+       EDITORIAL
+       NUEVA SECCIÓN — COMO EN LA IMAGEN 1
+  ====================================================== -->
 
   <section class="shop-editorial">
 
-    <img
-      src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85"
-      alt="Studio architecture">
 
-    <div>
-      <span>THE GEOMETRY OF SILENCE</span>
+    <!-- IMAGE -->
 
-      <p>
-        Our objects express restraint through
-        proportion, material and light.
-      </p>
+    <div class="shop-editorial-image">
 
-      <a href="#">READ MORE →</a>
+      <img
+        src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85"
+        alt="Modern studio architecture"
+        loading="lazy">
+
     </div>
 
+
+    <!-- TEXT -->
+
+    <div class="shop-editorial-content">
+
+      <span class="editorial-label">
+        EDITORIAL 04
+      </span>
+
+      <h2>
+        THE GEOMETRY OF SILENCE
+      </h2>
+
+      <p>
+        Our latest drop explores the intersection
+        of raw structural honesty and luxury minimalism.
+        Each piece is designed as a silent gallery frame,
+        allowing the wearer to command the environment
+        without raising their voice.
+      </p>
+
+      <a href="#">
+        READ STORY →
+      </a>
+
+    </div>
+
+
   </section>
+
 
 </main>
 
 
+
+<!-- =======================================================
+     FOOTER
+     NUEVO FOOTER COMO EN LA IMAGEN 1
+======================================================== -->
+
 <footer class="footer">
-  <div>
-    <strong>STUDIO</strong>
-    <p>Independent objects and garments.</p>
+
+
+  <!-- STUDIO -->
+
+  <div class="footer-brand">
+
+    <strong>
+      STUDIO
+    </strong>
+
+    <p>
+      Editorial boutique and laboratory for
+      contemporary essentials. Designed in
+      Berlin, sourced globally.
+    </p>
+
   </div>
 
-  <div>
-    <strong>SHOP</strong>
-    <a href="shop.html">ALL PRODUCTS</a>
-    <a href="#">COLLECTIONS</a>
-  </div>
+
+
+  <!-- SHOP -->
 
   <div>
-    <strong>INFORMATION</strong>
-    <a href="#">CONTACT</a>
-    <a href="#">SHIPPING</a>
-    <a href="#">RETURNS</a>
+
+    <strong>
+      SHOP
+    </strong>
+
+    <a href="shop.html">
+      NEW ARRIVALS
+    </a>
+
+    <a href="#">
+      COLLECTIONS
+    </a>
+
+    <a href="#">
+      ACCESSORIES
+    </a>
+
   </div>
+
+
+
+  <!-- CONNECT -->
+
+  <div>
+
+    <strong>
+      CONNECT
+    </strong>
+
+    <a href="#">
+      INSTAGRAM
+    </a>
+
+    <a href="#">
+      TWITTER
+    </a>
+
+    <a href="#">
+      NEWSLETTER
+    </a>
+
+  </div>
+
+
+
+  <!-- NEWSLETTER -->
+
+  <div class="footer-newsletter">
+
+    <strong>
+      NEWSLETTER
+    </strong>
+
+
+    <form
+      action="#"
+      method="post">
+
+      <label for="newsletter-email">
+        EMAIL ADDRESS
+      </label>
+
+
+      <div class="newsletter-input">
+
+        <input
+          id="newsletter-email"
+          type="email"
+          name="email"
+          placeholder="EMAIL ADDRESS"
+          autocomplete="email"
+          aria-label="Email address">
+
+
+        <button type="submit">
+          JOIN
+        </button>
+
+      </div>
+
+    </form>
+
+
+    <small>
+      © 2024 STUDIO EDITORIAL. ALL RIGHTS RESERVED.
+    </small>
+
+  </div>
+
+
 </footer>
 
+
+
 <script src="script.js"></script>
+
 </body>
 </html>
